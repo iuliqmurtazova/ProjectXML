@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE List [
+  <!ELEMENT List (QuotesFromBooks,QuotesFromMovies,Subjects)>
+  <!ELEMENT QuotesFromBooks (QuoteFB+)>
+  <!ELEMENT QuoteFB (Authors)>
+  <!ELEMENT Authors (Author+)>
+  <!ELEMENT Author EMPTY>
+  <!ELEMENT QuotesFromMovies (QuoteFM+)>
+  <!ELEMENT QuoteFM EMPTY>
+  <!ELEMENT Subjects (Subject+)>
+  <!ELEMENT Subject EMPTY>
+  <!ATTLIST QuoteFB 
+  Thought           CDATA #REQUIRED
+  YearOfPublication CDATA #IMPLIED
+  Book              CDATA #REQUIRED
+  Subject           CDATA #REQUIRED>
+  <!ATTLIST Author
+  FirstName CDATA #IMPLIED
+  LastName  CDATA #REQUIRED>
+  <!ATTLIST QuoteFM
+  Thought CDATA #REQUIRED
+  Year    CDATA #IMPLIED
+  Movie   CDATA #REQUIRED
+  Subject CDATA #REQUIRED>
+  <!ATTLIST Subject
+  id          CDATA #REQUIRED
+  Description CDATA #REQUIRED>
+]>
+
+<List>
+  <QuotesFromBooks>
+    <QuoteFB Thought="Живеят само влюбените, останалите просто съществуват." YearOfPublication="1597" Book="Ромео и жулиета" Subject="Love">
+      <Author>Уилям Шекспир</Author>
+    </QuoteFB>
+
+    <QuoteFB Thought="Когато често се срещаме с дадени хора, те стават част от живота ни. И като станат част от живота ни, започват да се опитват да го променят. И се сърдят, когато не правим това, което те изискват от нас. Понеже всеки си мисли, че знае как другият трябва да живее живота си, но всъщност никой не знае как трябва да живее своя собствен." YearOfPublication="1988" Book="Алхимикът" Subject="Life">
+        <Author>Паулу Коелю</Author>
+    </QuoteFB>
+
+    <QuoteFB Thought="Казват, че обратното на шума е тишината. Това не е вярно. Тишината е само отсъствие на шум." YearOfPublication="1986" Book="Фантастична светлина" Subject="Others">
+        <Author>Тери Пратчет</Author>
+    </QuoteFB>
+
+    <QuoteFB Thought="Истината рядко е чиста и никога проста." YearOfPublication="1895" Book="Колко е важно да бъдеш сериозен" Subject="Truth">
+      <Author>Оскар Уайлд</Author>
+    </QuoteFB>
+
+    <QuoteFB Thought="Всяко дълго пътуване започва с една единствена стъпка." YearOfPublication="1985" Book="Китайска поговорка" Subject="Sayings">
+      <Author>Лао Цзъ</Author>
+     </QuoteFB>
+	 
+	<QuoteFB Thought="Затворих се в себе си. Само така можех да се спася от реалността, която ми причиняваше непоносима болка." YearOfPublication="2012" Book="Открита пред теб" Subject="Pain">
+	  <Author>Силвия Дей</Author>
+	</QuoteFB>
+	
+	<QuoteFB Thought="Храбростта е, когато знаеш, че си победен още преди да започнеш, но въпреки това започваш и се държи докрай." YearOfPublication="1960" Book="Да убиеш присмехулник" Subject="Others">
+	  <Author>Харпър Ли</Author>
+	</QuoteFB>
+	
+	<QuoteFB Thought="Повечето хора биха предпочели да отхвърлят истината, отколкото да се изправят срещу нея." YearOfPublication="1996" Book="Игра на тронове" Subject="Truth">
+	  <Author>Джордж Р. Р. Мартин</Author>
+	</QuoteFB>
+	
+	<QuoteFB Thought="Желаех го достатъчно, за да наруша всичките си правила." YearOfPublication="2012" Book="Открита пред теб" Subject="Love">
+	  <Author>Силвия Дей</Author>
+	</QuoteFB>
+	
+	<QuoteFB Thought="- Това ли е частта в която разкъсваш ризата си за да превържеш раните ми? - Ако искаше да си сваля ризата трябваше просто да ме попиташ." YearOfPublication="2007" Book="Реликвите на смъртните" Subject="Others">
+	  <Author>Касандра Клеър </Author>
+	</QuoteFB>
+	
+	<QuoteFB Thought="Никоя цена не е достатъчно висока за едно ново усещане" YearOfPublication="1890" Book="Портретът на Дориан Грей" Subject="Feelings">
+	  <Author>Оскар Уайлд</Author>
+	</QuoteFB>
+	
+	<QuoteFB Thought="Ключът към щастието е да разберем, че важното е не какво се случва, а как реагираме на онова, което ни се случва!" YearOfPublication="-" Book="-" Subject="Happiness">
+	  <Author>Кийт Харел</Author>
+	</QuoteFB>
+	
+	<QuoteFB Thought="Исках да те нямам завинаги, а не да те имам за кратко." YearOfPublication="1971" Book="Лавина" Subject="Love">
+	  <Author>Блага Димитрова</Author>
+	</QuoteFB>
+	
+	<QuoteFB Thought="Силата на жените идва от това, че психологията не може да ги обясни." YearOfPublication="2012" Book="Идеалният мъж" Subject="Women">
+	  <Author>Оскар Уайлд</Author>
+	</QuoteFB>
+	
+	<QuoteFB Thought="Какъв скъперник е човекът - цени безценното до него, едва щом му посегне друг." YearOfPublication="2010" Book="Ревност" Subject="Others">
+	  <Author>Д. Дамянов</Author>
+	</QuoteFB>
+	
+	<QuoteFB Thought="В края на краищата, като теглите чертата, важното е да имате на кого да опаковате подарък за Коледа. А всичко друго, дето се вика, е дим." YearOfPublication="2011" Book="Очи" Subject="Truth">
+	  <Author>Едо Попович</Author>
+	</QuoteFB>
+	
+	<QuoteFB Thought="Нещастието си търси компания - а да списваш блог е добра терапия, когато си закъсал." YearOfPublication="2013" Book="Интимен наръчник за блогъри" Subject="Unhappiness">
+	  <Author>Ник Сполдинг</Author>
+	</QuoteFB>
+
+    <QuoteFB Thought="Животът не е поемал към нас задължение да осъществява мечтите ни. Трябва да вземем каквото ни предлага и да сме благодарни, защото и по-лошо би могло да бъде." YearOfPublication="1936" Book="Отнесени от вихъра" Subject="Dreams">
+      <Author>Маргарет Мичъл</Author>
+    </QuoteFB>
+
+    <QuoteFB Thought="Много по-мъчно е да съдиш сам себе си, отколкото да съдиш другите. Ако можеш да съдиш себе си правилно, значи ти си истински мъдрец." YearOfPublication="1943" Book="Малкият принц" Subject="Wisdom">
+	  <Author>Антоан дьо Сент Екзюпери</Author>
+    </QuoteFB>
+	
+	<QuoteFB Thought="Когато един мъж е обичал една жена, той е готов да стори всичко за нея. Освен да я обикне отново." YearOfPublication="2012" Book="Идеалният мъж" Subject="Love">
+	  <Author>Оскар Уайлд</Author>
+    </QuoteFB>
+    
+  </QuotesFromBooks>
+  <QuotesFromMovies>
+    <QuoteFM Thought="Дадох ти сърцето си. Това е всичко, което мога да ти дам. И ако това не е достатъчно за теб, тогава и аз не съм." Movie="One tree hill" Year="2003" Subject="Love"></QuoteFM>
+    <QuoteFM Thought="Всеки човек умира, но не всеки човек живее истински." Movie="Смело сърце" Year="1995" Subject="Life"></QuoteFM>
+    <QuoteFM Thought="Не съществува такова нещо като грешка. Съществува това, което правиш и това, което не правиш." Movie="Изневяра" Year="2002" Subject="Others"></QuoteFM>
+    <QuoteFM Thought="Никога не позволявай на фактите да пречат на истината." Movie="Теория на лъжата" Year="2001" Subject="Truth"></QuoteFM>
+    <QuoteFM Thought="Когато пръстът сочи Рая, глупакът гледа пръста." Movie="Невероятната съдба на Амели Пулен" Year="2001" Subject="Death"></QuoteFM>
+    <QuoteFM Thought="Ако вярваш в любовта от пръв поглед, никога не спираш да се оглеждаш." Movie="Отблизо" Year="2004" Subject="Love"></QuoteFM>
+    <QuoteFM Thought="Страхът може да те затвори. Надеждата може да се освободи." Movie="Изкуплението Шоушенк" Year="1994" Subject="Truth"></QuoteFM>
+    <QuoteFM Thought="Никога не се бори с прасе - и двамата ще се окаляте, но на прасето ще му хареса!" Movie="Добър съвет" Year="2001" Subject="Others"></QuoteFM>
+    <QuoteFM Thought="Животът е като кутия бонбони. Никога не знаеш какво ще ти се падне." Movie="Форест Гъмп " Year="1994" Subject="Life"></QuoteFM>
+	<QuoteFM Thought="Никога не казвай на една жена, че е грозна. Представи си я като красива маймуна!" Movie="Двама мъже и половина" Year="2003" Subject="Funny"></QuoteFM>
+	<QuoteFM Thought="Те рядко постигаха съгласие. Всъщност почти никога, караха се постоянно, но въпреки различията тях ги свързваше нещо много важно... Умираха един за друг!" Movie="Тетрадката" Year="2004" Subject="Love"></QuoteFM>
+	<QuoteFM Thought="Ние сме това, което сме избрали да бъдем." Movie="Спайдърмен" Year="2007" Subject="Truth"></QuoteFM>
+	<QuoteFM Thought="Не може да живееш живота си, за да угодиш на другите. Изборът трябва да бъде твои." Movie="Алиса в страната на чудесата" Year="2010" Subject="Life"></QuoteFM>
+	<QuoteFM Thought="Великите мъже не са се родили велики, те са станали велики след това." Movie="Кръстникът" Year="1972" Subject="Men"></QuoteFM>
+	<QuoteFM Thought="Само ако си в мир със себе си, ще намериш истинска връзка с другите." Movie="Преди изгрев слънце" Year="2010" Subject="Motivating"></QuoteFM>
+	<QuoteFM Thought="Всичко, което трябва да решим, е какво да правим с времето, което ни е дадено." Movie="Властелинът на пръстените" Year="2001" Subject="Truth"></QuoteFM>
+	<QuoteFM Thought="След извесно време ще се научиш да игнорираш хора, които говорят зад гърбът ти и ще вярваш в себе си." Movie="Шрек" Year="2004" Subject="Motivating"></QuoteFM>
+	<QuoteFM Thought="Поздравления. Вие все още сте жив. Повечето хора са толкова неблагодарни, че са живи." Movie="Убийствен Пъзел" Year="2004" Subject="Life"></QuoteFM>
+	<QuoteFM Thought="Сърцето иска това, което иска!" Movie="Отчаяни съпруги" Year="2004" Subject="Love"></QuoteFM>
+	<QuoteFM Thought="Защо богатите мъже са кретени? ...Защото красивите жени са кучки" Movie="Отчаяни съпруги" Year="2004" Subject="Funny"></QuoteFM>
+  </QuotesFromMovies>
+</List>
